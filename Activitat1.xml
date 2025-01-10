@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Botiga -->
+<shop>
+
+    <!-- Producte 1-->
+    <product code="001">
+        <!-- Etiquetes del producte -->
+        <name>TAEMIN - The 4th Mini Album [Guilty]</name>
+        <desc>Guilty is the fourth Korean extended play (EP) by South Korean singer Taemin. It was released on October 30, 2023, through SM Entertainment. The EP is Taemin's first release since being discharged from military service. It consists of six songs, including the lead single, "Guilty".</desc>
+        <price moneda="$">16.09</price>
+        <categories>
+            <category>Taemin</category>
+            <category>Music</category>
+            <category>CD</category>
+        </categories>
+        <availability>Out of stock</availability>
+        <image>https://i.ebayimg.com/images/g/lf0AAOSwVpplNyQT/s-l1200.jpg</image>
+    </product>
+
+    <!-- Producte 2 -->
+    <product code="002">
+        <!-- Etiquetes del producte -->
+        <name>TAEMIN - OFFICIAL LIGHT STICK</name>
+        <desc>TAEMIN - [2024 TAEMIN WORLD TOUR [Ephemeral Gaze]] OFFICIAL LIGHT STICK</desc>
+        <price moneda="$">37.63</price>
+        <categories>
+            <category>Taemin</category>
+            <category>Music</category>
+            <category>Light stick</category>
+        </categories>
+        <availability>Out of stock</availability>
+        <image>https://kstoryespana.es/cdn/shop/files/OFFICIAL_LIGHT_STICK_88135270-260b-45ec-b7c1-1fe3fd9bf280.jpg?v=1724052776</image>
+    </product>
+</shop>
