@@ -1,0 +1,21 @@
+{
+    "pokemons": [
+        {
+            "id":
+            "nom":
+            "tipus":
+            "pes": {
+                "unitat_pes":
+                "num_pes"
+            },
+            "altura": {
+                "unitat_alt":
+                "num_alt":
+            },
+            "estadistiques": {
+                "velocitat":
+                "for"
+            }
+        }
+    ]
+}
