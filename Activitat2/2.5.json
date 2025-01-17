@@ -1,21 +1,150 @@
 {
     "pokemons": [
         {
-            "id":
-            "nom":
-            "tipus":
+            "id": 0132,
+            "nom": "Ditto",
+            "tipus": ["normal"],
             "pes": {
-                "unitat_pes":
-                "num_pes"
+                "unitat_pes": "kg",
+                "num_pes": 4.0
             },
             "altura": {
-                "unitat_alt":
-                "num_alt":
+                "unitat_alt": "m",
+                "num_alt": 0.3
             },
             "estadistiques": {
-                "velocitat":
-                "for"
-            }
+                "velocitat": 48,
+                "fortalesa": 48,
+                "precisio": 48,
+                "resistencia": 48
+            },
+            "moviments": [
+                {
+                    "nom": "Transformación",
+                    "descripcio": "Transformación convierte al usuario en el Pokémon objetivo, copiando su tipo, sus movimientos, habilidad, su ratio de captura, sus estadísticas y cambios en las mismas.",
+                    "potencia": null,
+                    "contacte": "estado"
+                }
+            ],
+            "imatge": "https://pokemaster.es/ditto/",
+            "evolucions": [null]
+        },
+
+        {
+            "id": 0092,
+            "nom": "Gastly",
+            "tipus": ["fantasma", "veneno"],
+            "pes": {
+                "unitat_pes": "kg",
+                "num_pes": 0.1
+            },
+            "altura": {
+                "unitat_alt": "m",
+                "num_alt": 1.3
+            },
+            "estadistiques": {
+                "velocitat": 80,
+                "fortalesa": 35,
+                "precisio": 95,
+                "resistencia": 30
+            },
+            "moviments": [
+                {
+                    "nom": "Rayo confuso",
+                    "descripcio": "El enemigo es expuesto a un rayo siniestro que provoca confusión.",
+                    "potencia": null,
+                    "contacte": "estado"
+                },
+                {
+                    "nom": "Lengüetazo",
+                    "descripcio": "El enemigo es lamido con una lengua larga, causando daño. También puede paralizar al objetivo.",
+                    "potencia": 30,
+                    "contacte": "físico"
+                },
+                {
+                    "nom": "Hipnosis",
+                    "descripcio": "El usuario hipnotiza al objetivo para que caiga en un sueño profundo.",
+                    "potencia": 70,
+                    "contacte": "estado"
+                },
+                {
+                    "nom": "Mal de ojo",
+                    "descripcio": "El usuario fija al enemigo con una mirada oscura e hipnotizante. El objetivo queda incapaz de huir.",
+                    "potencia": null,
+                    "contacte": "estado"
+                },
+                {
+                    "nom": "Vendetta",
+                    "descripcio": "Si el usuario usa este ataque después de que el enemigo ataque, su poder se duplica.",
+                    "potencia": 50,
+                    "contacte": "físico"
+                },
+                {
+                    "nom": "Rencor",
+                    "descripcio": "El usuario descarga su rencor sobre el último movimiento usado por el enemigo, reduciendo 4 PP de ese movimiento.",
+                    "potencia": null,
+                    "contacte": "estado"
+                },
+                {
+                    "nom": "Maldición",
+                    "descripcio": "Un movimiento que funciona de manera diferente para el tipo Fantasma en comparación con los demás tipos.",
+                    "potencia": null,
+                    "contacte": "estado"
+                },
+                {
+                    "nom": "Infortunio",
+                    "descripcio": "Un ataque similar a ser bombardeado con preguntas. Un oponente afectado por una condición de estado recibirá mucho daño.",
+                    "potencia": 65,
+                    "contacte": "especial"
+                },
+                {
+                    "nom": "Tinieblas",
+                    "descripcio": "El usuario hace que el enemigo vea un espejismo. Inflige un daño equivalente al nivel del usuario.",
+                    "potencia": "1",
+                    "contacte": "especial"
+                },
+                {
+                    "nom": "Golpe bajo",
+                    "descripcio": "Este movimiento permite al usuario atacar primero. Sin embargo, falla si el enemigo no está preparando un ataque.",
+                    "potencia": 70,
+                    "contacte": "físico"
+                },
+                {
+                    "nom": "Pulso umbrío",
+                    "descripcio": "El usuario libera una horrible aura impregnada de pensamientos oscuros. También puede hacer que el objetivo se retroceda.",
+                    "potencia": 80,
+                    "contacte": "especial"
+                },
+                {
+                    "nom": "Bola sombra",
+                    "descripcio": "El usuario lanza una masa sombría al enemigo. También puede reducir la Defensa Especial del enemigo.",
+                    "potencia": 80,
+                    "contacte": "especial"
+                },
+                {
+                    "nom": "Mismo destino",
+                    "descripcio": "Cuando se utiliza este movimiento, si el usuario se debilita, el oponente que realizó el golpe también se debilita.",
+                    "potencia": null,
+                    "contacte": "estado"
+                },
+                {
+                    "nom": "Comesueños",
+                    "descripcio": "Un ataque que solo funciona sobre un oponente dormido. Absorbe la mitad del daño causado para curar los PS del usuario.",
+                    "potencia": 100,
+                    "contacte": "especial"
+                }
+            ],
+            "imatge": "https://www.google.es/url?sa=i&url=https%3A%2F%2Fwww.wikidex.net%2Fwiki%2FGastly&psig=AOvVaw0PBsRRvEA50wLruMjV0dOh&ust=1737199700291000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLjwgqrT_IoDFQAAAAAdAAAAABAE",
+            "evolucions": [
+                {
+                    "nom": "Haunter",
+                    "nivell": 25
+                },
+                {
+                    "nom": "Gengar",
+                    "nivell": ["intercambio", "cordón unión"]
+                }
+            ]
         }
     ]
 }
